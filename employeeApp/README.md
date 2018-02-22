@@ -37,10 +37,10 @@ To get more help on the `angular-cli` use `ng help` or go check out the [Angular
     1. Mongodb Environment setup
     2. run Mongo Server, use cmd Mongod
     3. Run Mondo client, use cmd mongo
-    4. Taking backup of data.
+    4. Taking backup of data. 
         1. in bin folder, cmd- mongodump --db empdb
          - That database backup folder created in Dump folder  is created in the bin directory
-
+ - Paste that dump folder in bin folder
           2. To restore databse use cmd- mongorestore --db empdb dump
          - dump is path to restore happen
 
