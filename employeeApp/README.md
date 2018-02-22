@@ -41,8 +41,9 @@ To get more help on the `angular-cli` use `ng help` or go check out the [Angular
         1. in bin folder, cmd- mongodump --db empdb
          - That database backup folder created in Dump folder  is created in the bin directory
  - Paste that dump folder in bin folder
-          2. To restore databse use cmd- mongorestore --db empdb dump
-         - dump is path to restore happen
+ 
+       2. To restore databse use cmd- mongorestore --db empdb dump
+      - dump is path to restore happen
 
  ## 2.  In the project Folder- Install dependancy cmd- npm install --save express body-parser
 
