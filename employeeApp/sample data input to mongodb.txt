@@ -1,0 +1,4 @@
+db.employee.insert([{"name":"Ratan Karande","dob":"24/06/1993","age":"24","address":"karad"},
+		    {"name":"Bhushan Patil","dob":"23/07/1992","age":"25","address":"Latur"},
+		    {"name":"Jagjeet Shinde","dob":"21/012/1991","age":"26","address":"Sangli"}			
+		])

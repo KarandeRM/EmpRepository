@@ -1,0 +1,24 @@
+// Steps to run application
+
+	Install Angular Cli
+
+1. Open 5 command prompts with admin accesss
+
+2. in 1st command prompt Enter Mongo db bin folder, and Type cmd-  mongod  //It will run mongo server
+
+3. In 2nd command prompt Enter Mongo db bin folder, and Type cmd-  mongo  //It will run mongo client ang give input data to insert document
+
+					> use empdb 
+					> db.employee.insert([{"name":"Ratan Karande","dob":"24/06/1993","age":"24","address":"karad"},
+		    {"name":"Bhushan Patil","dob":"23/07/1992","age":"25","address":"Latur"},
+		    {"name":"Jagjeet Shinde","dob":"21/012/1991","age":"26","address":"Sangli"}			
+		])
+
+4. in 3rd command prompt Enter project file named employeeApp, and Type cmd-  ng serve 
+					// It will run application on port 4200
+
+5. in 4th command prompt Enter project file named employeeApp, and Type cmd-  node server
+					// It  will run server at port 3000
+
+6.  in 5th command prompt Enter project file named employeeApp, and Type cmd-  ng build
+					// It will Build project in dist directory
